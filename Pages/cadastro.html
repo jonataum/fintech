@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cadastro</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="./CSS/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container-fluid my-5 text-center">
+            
+            <h1 class="display-">
+                Cadastre-se!
+            </h1>
+
+            <p class="my-3 lead">  E tenha sua vida financeira na 
+            <span style="color: #87A0F6">palma da sua mão</span>
+            <span>;)</span>
+            </p>
+
+            <form>
+                <div class="centralizar col-12 col-sm-8 col-md-6 col-lg-4">
+                    <label for="nome" class="form-label text-truncate">Nome completo</label>
+                    <input type="text" name="nome" id="nome" class="form-control border border-3">
+                </div>
+                                    
+                <div class="my-3 position-relative row" style="justify-content:center">
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                        <label for="dtNasc" class="form-label text-truncate">Data de nascimento</label>
+                        <input type="date" name="dtNasc" id="dtNasc" class="form-control border border-3">
+                    </div>
+    
+                    <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                        <label for="genero" class="form-label text-truncate">Gênero</label>
+                        <select class="form-select form-control border border-3">
+                            <option selected></option>
+                            <option value="1">Masculino</option>
+                            <option value="2">Feminino</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="my-3 centralizar col-12 col-sm-8 col-md-6 col-lg-4">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" name="email" id="email" class="form-control border border-3">
+                </div>
+                
+                <div class="position-relative row" style="justify-content:center">
+                    <div class="col-6 col-sm-5 col-md-4 col-lg-3">
+                        <label for="senha" class="form-label text-truncate">Senha</label>
+                        <input type="password" name="senha" id="senha" class="form-control border border-3">
+                    </div>
+    
+                    <div class="col-6 col-sm-5 col-md-4 col-lg-3">
+                        <label for="confirmaSenha" class="form-label text-truncate">Confirme sua senha</label>
+                        <input type="password" name="confirmaSenha" id="confirmaSenha" class="form-control border border-3"> 
+                    </div>
+                
+                    <div class="form-text">
+                        Sua senha deve ter de 8 a 20 caracteres e pode conter letras,  números e caracteres especiais. Não deve conter espaços
+                    </div>
+                </div>
+
+                <div class="my-4">
+                    <button type="submit" class="btn btn-primary btn-xl">Cadastrar</button>
+                </div>   
+            </form>
+        
+            <div>
+                <p class="lead"> Já possui cadastro?
+                    <a href="./index.html" id="Cadastro" class="link-primary link-opacity-75-hover" style="text-decoration: none"> Clique aqui para acessar sua conta!</a>
+                </p>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>
