@@ -1,0 +1,34 @@
+*{
+    font-family: 'ABeeZee', sans-serif;
+
+    background-color: #F6F6F6;
+}
+
+.border{
+    border-color: #87A0F6 !important;
+}
+
+.btn-primary{
+    background-color: #87A0F6 !important;
+    border-color:  #87A0F6 !important;
+}
+
+.btn-xl {
+    padding: 10px 50px;
+}
+
+.btn:hover{
+    opacity:0.75;
+}
+
+.link-primary{
+    color:rgb(46, 46, 46) !important;
+}
+
+.link-primary:hover{
+    color:#87A0F6 !important;
+}
+
+.centralizar{
+    margin: auto;
+}
